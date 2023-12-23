@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
 	res.end(); 
 }) 
 
-// Server listening to port 3002
-server.listen((6002), () => { 
-	console.log("Server is Running at 6002"); 
+// Server listening to port 6022
+server.listen((6022), () => { 
+	console.log("Server is Running at 6022"); 
 })
