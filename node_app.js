@@ -4,7 +4,7 @@ const http = require("http")
 // Creating server 
 const server = http.createServer((req, res) => { 
 	// Sending the response 
-	res.write("This is the response from the server") 
+	res.write("This is the response from the server. the app is running at port 6022") 
 	res.end(); 
 }) 
 
